@@ -75,3 +75,26 @@ int main()
     return 0;
 }
 ```
+
+## C#
+
+Execution time: **1.6082110s**
+
+```sh
+dotnet new console -o csharp
+dotnet build --configuration Release
+dotnet run --property:Configuration=Release
+```
+
+```cs
+var start = DateTime.Now;
+ulong count = 1000000000;
+
+while (count > 0)
+{
+    count--;
+}
+
+var stop = DateTime.Now;
+Console.WriteLine(stop - start);
+```
