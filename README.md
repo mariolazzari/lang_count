@@ -2,12 +2,11 @@
 
 ## NodeJS
 
-Execution time: **0.774199s**
+Execution time: **0.49572s**
 
 ```sh
 node app
 ```
-
 
 ```js
 console.time("count");
@@ -98,3 +97,6 @@ while (count > 0)
 var stop = DateTime.Now;
 Console.WriteLine(stop - start);
 ```
+
+## Python
+
